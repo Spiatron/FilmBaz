@@ -66,6 +66,16 @@ Ensure you have the following tools installed before proceeding:
 
 ---
 
+## 📧 Contact
+
+For support, feedback, or inquiries, reach out to us:
+
+- **Email**: [ahsanhafeez506@gmail.com](mailto:ahsanhafeez506@gmail.com)
+- **Linkedln**: [Ahsan Hafeez](https://www.linkedin.com/in/ahsan-hafeez-116943278/)
+- **GitHub Issues**: [Issues Page](https://github.com/Spiatron/Investa/issues)
+
+---
+
 ## 🚀 Project Ready!
 
 Once both the backend and frontend servers are running:
