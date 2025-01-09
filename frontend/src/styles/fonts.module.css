@@ -1,0 +1,140 @@
+/* styles/fonts.css */
+
+/*To import this*/
+
+/* import '../styles/fonts.module.css'; 
+style={{ fontFamily: "angrybird" }}
+*/
+@font-face {
+    font-family: 'angrybird';
+    src: url('/fonts/angrybirds-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+     font-family: 'manosque';
+     src: url('/fonts/Manosque-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+   @font-face {
+     font-family: 'asul';
+     src: url('/fonts/Asul-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+   @font-face {
+     font-family: 'quando';
+     src: url('/fonts/Quando-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'stencil';
+    src: url('/fonts/BespokeStencil-Extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'vast';
+    src: url('/fonts/VastShadow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'panchang';
+    src: url('/fonts/Panchang-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'chillax';
+    src: url('/fonts/Chillax-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'delius';
+    src: url('/fonts/Delius-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'raxye';
+    src: url('/fonts/Raxye-1G0nv.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'androidAssassin';
+    src: url('/fonts/AndroidAssassin-grz1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Ai';
+    src: url('/fonts/Ai-Yzq8y.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'circuitboard';
+    src: url('/fonts/Circuitboard-Rzno.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Android101';
+    src: url('/fonts/Android101-wVp8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Kufi';
+    src: url('/fonts/Reem Kufi Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'simbiot';
+    src: url('/fonts/simbiot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Vorcas';
+    src: url('/fonts/Vorcas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Jakosta';
+    src: url('/fonts/Jakosta-PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'khadash';
+    src: url('/fonts/khadash-arabic-demo.arabic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'khadash_eng';
+    src: url('/fonts/Khadash_ENG.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
