@@ -1,21 +1,26 @@
 import Navbar from "@/components/Navbar";
 import MovieRecommender from "@/components/MovieRecommender";
 import ScrollUp from "@/components/ScrollUp";
-import Background from "@/components/Background"; // Import Background component
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      {/* Background component */}
-      {/* <Background /> */}
-
-      {/* Main content */}
-      <div className="relative z-10"> {/* Ensures content is on top of the background */}
+      {/* Main content with ShadCN layout */}
+      <div className="min-h-screen flex flex-col">
+        {/* Navbar */}
         <Navbar />
-        <MovieRecommender />
+
+        {/* Dynamic Content */}
+        <main className="flex-grow">
+          <MovieRecommender />
+        </main>
 
         {/* Scroll to Top button */}
         <ScrollUp />
+
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   );

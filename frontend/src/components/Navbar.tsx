@@ -3,6 +3,7 @@ import React from "react";
 import { Menubar } from "@/components/ui/menubar";
 import { ModeToggle } from "@/components/ModeToggle";
 import { motion } from "framer-motion"; // Import framer-motion for animation
+import SponsorButton from "@/components/SponsorButton"; // Import the button
 
 function Navbar() {
   const reloadPage = () => {
@@ -29,14 +30,19 @@ function Navbar() {
           </motion.h1>
         </motion.div>
 
-        {/* Mode Toggle */}
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ duration: 0.2 }}
-        >
-          <ModeToggle />
-        </motion.div>
+        <div className="flex items-center gap-4">
+          {/* Sponsor Button */}
+          <SponsorButton />
+
+          {/* Mode Toggle */}
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ duration: 0.2 }}
+          >
+            <ModeToggle />
+          </motion.div>
+        </div>
       </div>
     </Menubar>
   );
